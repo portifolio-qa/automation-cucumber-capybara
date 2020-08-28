@@ -15,7 +15,8 @@ E devo ver "Tony Stark" na area logada
 Cenario: Senha
 Quando eu faco login com "rosedias1" e "pw123"
 Entao não devo ser autenticado
-E devo ver a mensagem de alerta "Usuário e/ou senha inválidos."
+E devo ver a mensagem de alerta "Usuário e/ou senha inválidos"
+
 
 Cenario: Usuário não existe
 Quando eu faco login com "rosedias2" e "pw123"
