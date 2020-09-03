@@ -8,7 +8,7 @@ Posso acessar o sistema com o meu email e senha
 @login_acesso
 Cenario: Acesso
 Quando eu faco login com "tony@stark.com" e "pwd123"
-Então devo ser autenticado
+Entao devo ser autenticado
 E devo ver "Tony Stark" na area logada
 
 @login_senha
