@@ -21,15 +21,15 @@ E devo ver a mensagem de alerta "Usuário e/ou senha inválidos"
 Cenario: Usuário não existe
 Quando eu faco login com "rosedias2" e "pw123"
 Entao não devo ser autenticado
-E devo ver a mensagem de alerta "Usuário e/ou senha inválidos."
+E devo ver a mensagem de alerta "Usuário e/ou senha inválidos"
 
 Cenario: Email não informado
 Quando eu faco login com "" e "pw123"
 Entao não devo ser autenticado
-E devo ver a mensagem de alerta "Email não informado"
+E devo ver a mensagem de alerta "Opps. Cadê o email?"
 
 
 Cenario: Senha não informado
 Quando eu faco login com "teste@gmail.com" e ""
 Entao não devo ser autenticado
-E devo ver a mensagem de alerta "Senha não informada"
+E devo ver a mensagem de alerta "Opps. Cadê a senha?"
